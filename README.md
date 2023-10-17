@@ -37,4 +37,29 @@ SEO
 [DEMO LINK](https://HannaVasylieva.github.io/bose-layout/)
 
 ## Figma design
-https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6703%3A88&mode=dev
+[FIGMA](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6703%3A88&mode=dev)
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+# Prerequisites
+
+- [Node.js](https://nodejs.org/) must be installed on your computer. If it's not already installed, download and install it from the official website.
+
+# Clone the Repository
+
+1. Open your terminal or command prompt.
+2. Change the current working directory to the location where you want to store the project.
+3. Clone the repository from GitHub using the following command:
+   ```bash
+   git clone <your-repo-url>
+
+# Install Dependencies
+1. Navigate to the project's directory using the cd command:
+cd your-project-directory
+2. Install project dependencies using npm:
+npm install
+3. Once the dependencies are installed, start the development server with:
+npm start
+4. Your project should now be running locally.

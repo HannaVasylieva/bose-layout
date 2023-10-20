@@ -11,11 +11,21 @@
   @include onLaptop {
     width: $size-iconLogo;
     height: $size-iconLogo;
+
+    &:hover &__tooltip {
+      opacity: 1;
+      pointer-events: all;
+    }
   }
 
   @include onDesctop {
     width: $size-iconLogo;
     height: $size-iconLogo;
+
+    &:hover &__tooltip {
+      opacity: 1;
+      pointer-events: all;
+    }
   }
 
   &__tooltip {
@@ -36,16 +46,11 @@
     transition: opacity 0.3s;
   }
 
-  &:hover &__tooltip {
-    opacity: 1;
-    pointer-events: all;
-  }
-
   &--menu {
     background-image: url(../images/menu.svg);
 
     &:hover {
-      background-image: url(../images/menu__hovers.svg);
+      background-image: url(../images/menuHover.svg);
     }
   }
 
